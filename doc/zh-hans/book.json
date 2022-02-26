@@ -1,0 +1,45 @@
+{
+  "honkit": "^3.6.20",
+  "language": "zh-hans",
+  "author": "四季留歌 <onsummer@foxmail.com>",
+  "variables": {
+    "workshopUrl": "http://localhost:5000"
+  },
+  "links": {
+    "sidebar": {
+      "OpenLayers Workshop": "/"
+    },
+    "gitbook": false
+  },
+  "plugins": [
+    "image-captions",
+    "highlight",
+    "include",
+    "include-codeblock",
+    "copy-code-button",
+    "code",
+    "copy-code-button",
+    "expandable-chapters",
+    "back-to-top-button",
+    "-lunr",
+    "-search",
+    "search-pro",
+    "tbfed-pagefooter"
+  ],
+  "pluginsConfig": {
+    "image-captions": {
+      "caption": "_CAPTION_"
+    },
+    "include-codeblock": {
+      "unindent": true
+    },
+    "tbfed-pagefooter": {
+      "copyright": "Copyright &copy mine 2022",
+      "modify_label": "文件修订时间: ",
+      "modify_format": "YYYY-MM-DD HH:mm"
+    }
+  },
+  "styles": {
+    "website": "style.css"
+  }
+}
